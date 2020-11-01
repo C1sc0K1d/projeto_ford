@@ -1,0 +1,94 @@
+body{
+   background-image: linear-gradient(white, #133A7C);
+   width: 100%;
+   height: 100%;
+   overflow-x: hidden;
+}
+
+.olho {
+  cursor: pointer;
+  right: 3.5em;
+  position: absolute;
+  width: 4.5em;
+}
+
+.zoi {
+  cursor: pointer;
+  border-right: 1em;
+  width: 3.5em;
+}
+
+
+#header{
+  background-color: #133A7C;
+  height: 6em;
+}
+
+#footer{
+  position: absolute;
+  border-radius: 8em 8em 0.7em 0.7em / 3em 3em 0em 0em;
+  background: #133A7C;
+  width: 100%;
+  height: 8.75em;
+  left: 0px;
+  top: 756px;
+}
+
+#body{
+  margin-top: 12em;
+  margin-bottom: 10em;
+}
+
+#ford{
+  position: relative;
+  left: -0.5em;
+  top: 1em;
+  width: 25em;
+}
+
+.container{
+  text-align: center;
+}
+
+.tittle{
+  margin-bottom: 0em;
+  margin-right: 1.8em;
+  font-size: 2.0em;
+}
+
+.input{
+    width: 80%;
+    border-color: #133A7C;
+    border-radius: 0.7em 0.7em 0.7em 0.7em;
+    margin-bottom: 1.8em;
+    height: 3.8em;
+
+}
+
+.input:hover{
+  width: 80%;
+  border-color: blue;
+  border-radius: 0.7em 0.7em 0.7em 0.7em;
+  height: 3.8em;
+}
+
+.btn{
+  background-color: #133A7C;
+  margin-top: 1em;
+  width: 70%;
+  font-size: 1.5em;
+  border-radius: 10em 10em 10em 10em;
+}
+
+.btn:hover{
+  box-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.btn:focus{
+  box-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.btnTxt{
+  margin-top: 0.6em;
+  color: white;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <title>Main menu</title>
+
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" id="header">
+    <form accept-charset="UTF-8" role="form" class="form-signin" action="/main" method="post">
+      <div class="row">
+        <div class="d-flex flex-grow-1 chat__header">
+          <button><svg width="48px" height="auto" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+            </svg></button>
+          <label class="chat__label" href="" class="text">Menu</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="userInfo">
+
+  </div>
+
+  <div class="" class="container" id="body">
+
+    <div class="">
+      <form accept-charset="UTF-8" role="form" class="form-signin" action="/catalogo" method="post">
+        <button class="btm">
+          <img id="cat" src="images/CatalogoImg.svg" alt="">
+          <span class="btntext">Catálogo</span>
+        </button>
+      </form>
+      <form accept-charset="UTF-8" role="form" class="form-signin" action="/comunidade" method="post">
+        <button class="btm">
+          <img id="cat" src="images/ComunidadeImg.svg" alt="">
+          <span class="btntext">Comunidade</span>
+        </button>
+      </form>
+      <form accept-charset="UTF-8" role="form" class="form-signin" action="/triagem" method="post">
+        <button class="btm">
+          <img id="cat" src="images/TriagemImg.svg" alt="">
+          <span class="btntext">Triagem</span>
+        </button>
+      </form>
+      <form accept-charset="UTF-8" role="form" class="form-signin" action="/configurações" method="post">
+        <button class="btm">
+          <img id="cat" src="images/ConfigImg.svg" alt="">
+          <span class="btntext".>Configurações</span>
+        </button>
+      </form>
+    </div>
+
+
+    <div class="row" class="chatbot">
+      <script type="text/javascript">
+        window.watsonAssistantChatOptions = {
+          integrationID: "e4397526-1a94-4a14-b06e-f5abb85aca44",
+          // Your assistants region e.g. 'us-south', 'us-east', 'jp-tok' 'au-syd', 'eu-gb', 'eu-de', etc.
+          region: "us-east",
+          // A UUID like '6435434b-b3e1-4f70-8eff-7149d43d938b' included in the embed code provided in Watson Assistant.
+          serviceInstanceID: "0ab409b1-6d71-4728-937e-a3c554fb561b",
+          // The callback function that is called after the widget instance has been created.
+          onLoad: function(instance) {
+            instance.render();
+          },
+        };
+        setTimeout(function() {
+          const t = document.createElement("script");
+          t.src =
+            "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    </div>
+
+  </div>
+
+  <footer class="page-footer font-small blue pt-4">
+    <div class="container" id="footer">
+      <img id="ford" src="images/ford22.svg" alt="">
+    </div>
+  </footer>
+
+</body>
+
+</html>

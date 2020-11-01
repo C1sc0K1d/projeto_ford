@@ -1,0 +1,46 @@
+#header {
+  background-color: #133A7C;
+}
+
+.chat__header button,
+.chat__header label {
+  color: #fff;
+  background-color: transparent;
+  margin: auto 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.chat__label {
+  font-size: 36px;
+}
+
+svg {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+.custom__button {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.custom__button img {
+  transform: scale(0.8);
+}
+
+footer{
+  background-color: #133A7C;
+  border-radius: 7em 7em 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  text-align: center;
+}
+
+#ford{
+  position: relative;
+  bottom: 3em;
+}

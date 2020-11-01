@@ -1,0 +1,66 @@
+#header {
+  background-color: #133A7C;
+  width: auto;
+}
+
+.chat__header button, .chat__header label {
+  color: #fff;
+  background-color: transparent;
+  margin: auto 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.chat__label {
+  font-size: 36px;
+  position: relative;
+  bottom: 0.3em;
+}
+
+svg {
+  margin-right: 12px;
+  margin-left: 8px;
+
+}
+
+.userInfo{
+  background-color: #133A7C;
+  height: auto;
+  width: 100%;
+}
+
+.btntext{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.btm{
+  background-color: white;
+  box-shadow: 1px 1px 8px 2px black;
+  border-radius: 1em;
+  margin-left: 19px;
+  margin-bottom: 8px;
+  width: 374px;
+  height: 105px;
+}
+
+#WACLauncher__Button{
+    box-shadow: 0.5em 0.5em 1em 0.4em black !important;
+    background-color: dark-blue !important;
+}
+
+footer{
+  background-color: #133A7C;
+  border-radius: 7em 7em 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  text-align: center;
+}
+
+#ford{
+  position: relative;
+  bottom: 3em;
+}

@@ -1,0 +1,63 @@
+#header {
+  background-color: #133A7C;
+}
+
+.chat__header button, .chat__header label {
+  color: #fff;
+  background-color: transparent;
+  margin: auto 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.chat__label {
+  font-size: 36px;
+}
+
+svg {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+.category {
+  background-color: #133A7C;
+  color: #fff;
+}
+
+.list-group {
+  margin-top: 32px;
+  width: 80%;
+}
+
+.list-group-item {
+  border-radius: 15px !important;
+}
+
+.list-group-item span {
+  margin-right: auto;
+}
+
+.list-group-item svg {
+  margin: auto 0;
+}
+
+.list-group > li {
+  margin-top: 8px;
+  display: flex;
+}
+
+footer{
+  background-color: #133A7C;
+  border-radius: 7em 7em 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  text-align: center;
+}
+
+#ford{
+  position: relative;
+  bottom: 3em;
+}
