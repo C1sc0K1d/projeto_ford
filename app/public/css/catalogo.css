@@ -26,7 +26,7 @@ svg {
 
 .list-group {
   margin-top: 32px;
-  width: 80%;
+  width: 93%;
 }
 
 .list-group-item {
@@ -41,12 +41,24 @@ svg {
   margin: auto 0;
 }
 
-.list-group > li {
-  margin-top: 8px;
+.list-group>form {
+  margin-top: 12px;
+  margin-bottom: 12px;
   display: flex;
+  font-size: 24px;
 }
 
-footer{
+.botao {
+  width: 100%;
+  font-weight: bold;
+}
+
+.botao>svg {
+  position: relative;
+  top: 5px;
+}
+
+footer {
   background-color: #133A7C;
   border-radius: 7em 7em 0 0;
   position: fixed;
@@ -57,7 +69,7 @@ footer{
   text-align: center;
 }
 
-#ford{
+#ford {
   position: relative;
-  bottom: 3em;
+  bottom: 4.5em;
 }

@@ -1,4 +1,4 @@
-let express = require('express');
+var express = require('express');
 
 let consign = require('consign');
 
@@ -18,6 +18,7 @@ consign()
     .include('app/routes')
     .then('app/models')
     .then('app/controllers')
+    .then('config/dbConnection.js')
     .into(app);
 
 module.exports = app;

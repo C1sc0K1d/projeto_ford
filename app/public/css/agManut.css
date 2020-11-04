@@ -1,0 +1,92 @@
+#header {
+  background-color: #133A7C;
+}
+
+.chat__header button, .chat__header label {
+  color: #fff;
+  background-color: transparent;
+  margin: auto 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.chat__label {
+  font-size: 36px;
+}
+
+svg {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+.formulario{
+  width: 384px !important;
+  border-radius: 1em;
+  padding-left: 10px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 2px black;
+  border-left: 12px solid #133A7C;
+}
+
+.cabecalho{
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+
+.perguntas{
+  font-size: 28px;
+  margin: auto;
+  margin-left: 7px;
+}
+
+select{
+  width: 334px;
+  height: 50.5px;
+  border: 3px solid #133A7C;
+  border-radius: 0.5em;
+  margin: auto;
+  margin-bottom: 18px;
+  margin-left: 7px;
+  background-color: white;
+}
+
+footer {
+  background-color: #133A7C;
+  border-radius: 7em 7em 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  text-align: center;
+}
+
+option{
+  width: 200px;
+}
+
+.enviar{
+  margin: auto;
+  margin-bottom: 40px;
+  padding-bottom: 80px;
+  margin-top: 20px;
+  border-radius: 1em;
+  width: 324px;
+}
+
+.enviar > button{
+  margin: auto;
+  height: 50px;
+  color: white;
+  border-radius: 1em;
+  background-color: #133A7C;
+  width: 324px;
+}
+
+#ford {
+  position: relative;
+  bottom: 4.5em;
+}

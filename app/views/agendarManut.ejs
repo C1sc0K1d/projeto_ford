@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <script src="js/jquery-2.2.1.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Agendamento de manutenção</title>
+
+  <link href="css/agManut.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container" id="header">
+    <div class="row">
+      <form accept-charset="UTF-8" role="form" class="form-signin" action="/triagem" method="post">
+        <div class="d-flex flex-grow-1 chat__header">
+          <button><svg width="48px" height="auto" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg></button>
+          <label class="chat__label" href="" class="text">Voltar</label>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="body" class="row">
+    <div class="formulario">
+      <span class="cabecalho">Preencha os dados abaixo.</span>
+      <label class="perguntas">Escolha a região mais proxima:</label>
+      <select name="regiao" id="regiao" form="regiaoform">
+        <option value=""></option>
+        <option value="vlsd">Vila Saúde</option>
+        <option value="verg">Vergueiro</option>
+        <option value="mcc">Mocca</option>
+        <option value="scs">São Caetano</option>
+      </select>
+
+      <label class="perguntas">Escolha a concessionária que deseja ir:</label>
+      <select name="concessionaria" id="concessionaria" form="concessionariaform">
+        <option value=""></option>
+        <option value="c1">Concessionária 1</option>
+        <option value="c2">Concessionária 2</option>
+        <option value="c3">Concessionária 3</option>
+        <option value="c4">Concessionária 4</option>
+      </select>
+
+      <label class="perguntas">Escolha a data e hora para realizar a revisão do carro:</label>
+      <select name="dthr" id="dthr" form="dthrform">
+        <option value=""></option>
+        <option value="dia1">09:00 12/01/2021</option>
+        <option value="dia2">15:00 12/01/2021</option>
+        <option value="dia3">09:00 13/01/2021</option>
+        <option value="dia4">15:00 13/01/2021</option>
+      </select>
+
+      <label class="perguntas">Escolha o carro que ira passar pela revisão:</label>
+      <select name="car" id="car" form="carform">
+        <option value=""></option>
+        <option value="ka">Ford Ka</option>
+        <option value="ranger">Ford Ranger</option>
+        <option value="mustang">Ford Mustang</option>
+        <option value="ecosport">Forf EcoSport</option>
+      </select>
+    </div>
+
+
+      <form class="enviar" accept-charset="UTF-8" role="form" class="form-signin" action="/triagem" method="post">
+        <button>Enviar</button>
+      </form>
+
+  </div>
+
+  <footer class="page-footer font-small blue pt-4">
+    <div class="container" id="footer">
+      <img id="ford" src="images/ford22.svg" alt="">
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

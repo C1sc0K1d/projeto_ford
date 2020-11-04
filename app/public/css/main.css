@@ -20,11 +20,19 @@
 svg {
   margin-right: 12px;
   margin-left: 8px;
+}
 
+.avatar{
+  padding-left: 10px;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
 }
 
 .userInfo{
   background-color: #133A7C;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
   height: auto;
   width: 100%;
 }
@@ -37,9 +45,11 @@ svg {
 .btm{
   background-color: white;
   box-shadow: 1px 1px 8px 2px black;
+  text-align: left;
   border-radius: 1em;
-  margin-left: 19px;
-  margin-bottom: 8px;
+  margin-left: 7px;
+  margin-bottom: 5px;
+  margin-top: 1em;
   width: 374px;
   height: 105px;
 }
@@ -47,6 +57,14 @@ svg {
 #WACLauncher__Button{
     box-shadow: 0.5em 0.5em 1em 0.4em black !important;
     background-color: dark-blue !important;
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.WACLauncher__ButtonContainer{
+  position: relative !important;
+  bottom: -2px !important;
+  left: 320px !important;
 }
 
 footer{
@@ -63,4 +81,68 @@ footer{
 #ford{
   position: relative;
   bottom: 3em;
+  right: 18px;
+}
+
+.fixDow{
+  color: white;
+  width: 250px;
+}
+
+.fixDowBtn{
+  width: 250px;
+  font-size: 20px;
+  background-color: #133A7C;
+  color: white;
+  text-align: left;
+  border: 0px;
+  border-top: 1px solid black;
+  padding-top: 12px;
+  position: relative;
+  top: 640px;
+}
+
+.ddd{
+  margin-right: 10px;
+  position: relative;
+  right: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #133A7C;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

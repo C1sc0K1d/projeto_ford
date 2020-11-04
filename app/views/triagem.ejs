@@ -4,8 +4,6 @@
 <head>
   <meta charset="utf-8">
 
-  <meta charset="utf-8">
-
   <script src="js/jquery-2.2.1.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,22 +32,27 @@
 
   <div class="container" id="body">
     <div class="row">
-      <button type="button" name="button" class="custom__button">
-        <div class="card mx-auto" style="width: 18rem;">
-          <img class="card-img-top" src="images/AgendarManut.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Agendar Revisão</h5>
+      <form class="ag" accept-charset="UTF-8" role="form" class="form-signin" action="/agendarManut" method="post">
+        <button>
+          <div class="card mx-auto" style="width: 18rem;">
+            <img class="card-img-top" src="images/AgendarManut.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Agendar Revisão</h5>
+            </div>
           </div>
-        </div>
-      </button>
-      <button type="button" name="button" class="custom__button">
-        <div class="card mx-auto" style="width: 18rem;">
-          <img class="card-img-top" src="images/car_1.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Acompanhar manutenção</h5>
+        </button>
+      </form>
+
+      <form class="am" accept-charset="UTF-8" role="form" class="form-signin" action="/acompManut" method="post">
+        <button>
+          <div class="card mx-auto" style="width: 18rem;">
+            <img class="card-img-top" src="images/car_1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Acompanhar manutenção</h5>
+            </div>
           </div>
-        </div>
-      </button>
+        </button>
+      </form>
     </div>
   </div>
 

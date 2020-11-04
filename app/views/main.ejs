@@ -14,24 +14,43 @@
 
 <body>
   <div class="container" id="header">
-    <form accept-charset="UTF-8" role="form" class="form-signin" action="/main" method="post">
-      <div class="row">
-        <div class="d-flex flex-grow-1 chat__header">
-          <button><svg width="48px" height="auto" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
-            </svg></button>
-          <label class="chat__label" href="" class="text">Menu</label>
-        </div>
+    <div class="row">
+      <div class="d-flex flex-grow-1 chat__header">
+        <button onclick="openNav()"><svg width="48px" height="auto" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+          </svg></button>
+        <label class="chat__label" href="" class="text">Menu</label>
       </div>
+    </div>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#"><img id="ddd" src="images/ImgFC.png" alt=""> Fale Conosco</a>
+    <a href="#"><img id="ddd" src="images/ImgSobre.png" alt=""> Sobre Nós</a>
+    <form class="fixDow" accept-charset="UTF-8" role="form" class="form-signin" action="/" method="post">
+      <button class="fixDowBtn"><img id="cat" src="images/ImgSair.png" alt=""> Sair</button>
     </form>
   </div>
 
-  <div class="userInfo">
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
 
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <div class="userInfo">
+    <img class="avatar" src="images/Avatar.svg" alt="">
+    <span>Olá,</span>
+    <span><%= user.nome %></span>
   </div>
 
-  <div class="" class="container" id="body">
+  <div class="container" id="body">
 
     <div class="">
       <form accept-charset="UTF-8" role="form" class="form-signin" action="/catalogo" method="post">
@@ -52,10 +71,10 @@
           <span class="btntext">Triagem</span>
         </button>
       </form>
-      <form accept-charset="UTF-8" role="form" class="form-signin" action="/configurações" method="post">
+      <form accept-charset="UTF-8" role="form" class="form-signin" action="/conta" method="post">
         <button class="btm">
           <img id="cat" src="images/ConfigImg.svg" alt="">
-          <span class="btntext".>Configurações</span>
+          <span class="btntext" .>Configurações</span>
         </button>
       </form>
     </div>

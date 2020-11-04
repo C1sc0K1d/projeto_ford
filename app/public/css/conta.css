@@ -1,0 +1,111 @@
+body {
+  width: 414px;
+  height: 896px;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: #133A7C;
+}
+
+.chat__header button, .chat__header label {
+  color: #fff;
+  background-color: transparent;
+  margin: auto 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.chat__label {
+  font-size: 36px;
+}
+
+svg {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+#ClasseIdioma {
+  background-color: #133A7C;
+  color: white;
+  font-size: 22pt;
+  width: 384px;
+  height: 65px;
+  border-radius: 10pt;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#idioma {
+  color: black;
+  font-size: 22pt;
+  width: 384px;
+  border-radius: 10pt;
+  margin: auto;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.ClasseNotificacoes {
+  background-color: #133A7C;
+  color: white;
+  font-size: 22pt;
+  width: 384px;
+  height: 65px;
+  border-radius: 10pt;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#noti {
+  color: black;
+  font-size: 22pt;
+  width: 384px;
+  border-radius: 10pt;
+  margin: auto;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.ClasseConta {
+  background-color: #133A7C;
+  color: white;
+  font-size: 22pt;
+  width: 384px;
+  height: 65px;
+  border-radius: 10pt;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#conta {
+  color: black;
+  font-size: 22pt;
+  width: 384px;
+  border-radius: 10pt;
+  margin: auto;
+  margin-left: 15px;
+  text-align: center;
+}
+
+footer {
+  background-color: #133A7C;
+  border-radius: 7em 7em 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  text-align: center;
+}
+
+#ford {
+  position: relative;
+  bottom: 3.2em;
+}
